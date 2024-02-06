@@ -1,0 +1,29 @@
+.psection1{
+    width: 100%;
+    padding: 7vw 4vw;
+}
+
+.pcontainer .img-1{grid-area: img1;}
+.pcontainer .img-2{grid-area: img2;}
+.pcontainer .img-3{grid-area: img3;}
+.pcontainer .img-4{grid-area: img4;}
+.pcontainer .img-5{grid-area: img5;}
+.pcontainer .img-6{grid-area: img6;}
+
+.psection1 .pcontainer{
+    display: grid;
+    grid-template-areas: 
+    'img1 img2 img3'
+    'img4 img2 img5'
+    'img4 img6 img5';
+    grid-gap: 3rem;
+}
+.pcontainer img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .1s;
+}
+.pcontainer img:hover{
+    opacity: .3;
+}

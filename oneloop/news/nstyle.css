@@ -1,0 +1,174 @@
+i{
+    font-size: 2rem;
+}
+.nsection1{
+    padding: 5vw 4vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 4rem;
+}
+.nleft{
+    background-color: rgb(20, 20, 20);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3rem;
+    padding: 4rem 4rem;
+}
+
+.nleft h2{
+    border-bottom: 1px solid rgba(101, 101, 101, 0.726);
+    width: 100%;
+    padding-bottom: 1rem;
+}
+.nleft .search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.nleft .search input{
+    width: 100%;
+    background-color: rgb(30, 30, 30);
+    font-size: 2rem;
+    padding: 1rem 1rem;
+    border: none;
+    outline: none;
+}
+.nleft .search span{
+    background-color: rgb(31, 151, 151);
+    padding:1.2rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nleft .search span i{
+    color: black;
+    font-size: 2.5rem;
+}
+
+.nleft .archive{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.nleft .category{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.nleft .category i{
+    font-size: 1.2rem;
+    width: 2rem;
+}
+.nleft .recentpost{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.recentpost .posts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3rem;
+}
+.recentpost .posts .post1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.recentpost .posts .post1 .npic{
+    height: 8rem;
+    width: 10rem;
+    border-radius: .3rem;
+}
+.recentpost .posts .post1 .npic img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.recentpost .posts .post1 .ntext{
+    width: 62%;
+}
+
+.nleft .tags{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.nleft .socialmedia{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.nleft .socialmedia .nicons{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+.nicons a{
+    padding: .4rem 1.4rem;
+    background-color: rgb(60, 60, 159);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+}
+.nicons a i{
+    font-size: 1.4rem;
+}
+
+
+
+
+.nright{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4rem;
+}
+.nright .newspost{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(20, 18, 26);
+}
+.newspost .nimage{
+    width: 100%;
+    height: 50rem;
+}
+.newspost .nimage img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.newspost .nrtext{
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.newspost .time{
+    display: flex;
+    gap: 3rem;
+}
+.newspost .time p span{
+    margin-right: 1rem;
+}
+.newspost .time span i{
+    font-size: 1.5rem;
+}

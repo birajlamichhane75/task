@@ -1,0 +1,43 @@
+.tsection1{
+    width: 100%;
+    padding: 7vw 5vw;
+}
+
+.tcontainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+.tbox{
+    width: 30rem;
+    background-color: rgb(23, 19, 40);
+}
+.timgbox{
+    width: 100%;
+    height: 35rem;
+    overflow: hidden;
+}
+.timgbox:hover img{
+    scale: 1.1;
+}
+.timgbox img{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+.tbox .tinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: .3rem;
+    padding: 1.5rem;
+}
+.tinfo .ticon{
+    display: flex;
+    gap: 3rem;
+}
+.ticon i{
+    color: cyan;
+}

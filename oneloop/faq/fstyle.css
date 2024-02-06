@@ -1,0 +1,70 @@
+.fsection1{
+    width: 100%;
+    padding: 7vw 4vw;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap:5rem
+}
+.fsection1 .fleft{
+    width: 45%;
+    height: 70rem;
+}
+.fsection1 .fleft img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.fsection1 .fright{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3rem;
+    padding: 0 1rem;
+}
+.fright .ftext{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.fright .questions{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    width: 100%;
+}
+.fright .questions .select{
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    width: 100%;
+    border: 1px solid rgb(94, 94, 94);
+   
+}
+.fright .questions .select .inside{
+    padding: 2rem 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.fright .questions .select .answer{
+    display: none;
+    min-height: 5rem;
+    width: 100%;
+    border: 1px solid rgb(94, 94, 94);
+    padding: 2rem 5rem;
+    text-align: justify;
+}
+.fright .btn {
+    display: flex;
+    align-items: center;
+}
+.fright .btn i{
+    font-size: 2.5rem;
+    margin-right: 1rem;
+    color: black;
+}
+

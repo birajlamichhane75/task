@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#page2{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+.asection1{
+    padding: 7vw 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(10, 11, 15);
+}
+
+.asection1 .left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 5rem;
+}
+.lpic{
+    height: 45rem;
+    width: 35rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.lpic:hover img{
+    scale: 1.1;
+}
+
+.lpic img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .5s;
+}
+.ltext{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+}
+.ltext p{
+    color: red;
+}
+
+.asection1 .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.asection1 .right .rtext{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.rpic{
+    height: 45rem;
+    width: 35rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.rpic:hover img{
+    scale: 1.1;
+}
+.rpic img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .5s;
+}
+
+
+.asection2::before{
+    content: "";
+    display: block;
+   background-image: url("/images/blob.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-position:center;
+   background-size: cover;
+   height: 60rem;
+   width: 100%;
+   opacity: .2;
+}
+
+.asection2{
+position: relative;
+}
+.asection2 .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.asection2 .text .btn a{
+    font-size: 2rem;
+    color: black;
+}
+
+
+.asection3{
+    padding: 7vw 4vw;
+    background-color: rgb(10, 11, 15);
+    min-height: 100rem;
+}
+
+.asection3 .atop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.atop .as3left{
+    width:90%;
+}
+
+.acenter{
+    margin: 7rem 0;
+}
+.changebtn{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.changebtn .btn{
+    background-color:rgb(27, 30, 51);
+    color: white;
+    cursor: pointer;
+}
+.changebtn .btn:hover{
+    
+    background-color:rgb(45, 31, 80);
+}
+.maincontainer{
+    position: relative;
+}
+.acontainer{
+    border: 5px solid rgb(3, 41, 59);
+    position: absolute;
+    padding: 5rem 5rem;
+    background-color:rgb(3, 41, 59);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+.cont-1{
+    display: flex;
+}
+.cont-2{
+    
+    display: none;
+}
+.cont-3{
+    display: none;
+    background-color: rgb(17, 17, 20);
+}
+.acontainer .aleft{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.aleft .apic{
+    height: 40rem;
+    width: 55rem;
+    border-radius: .8rem;
+    overflow: hidden;
+}
+.aleft .apic:hover img{
+    scale: 1.1;
+}
+.aleft .apic img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .5s;
+}
+.aleft .atext{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4rem;
+}
+
+.aleft .atext .info{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.aleft .atext .info i{
+    font-size: 3rem;
+    color:rgb(75, 190, 209);
+}
+
+.acontainer .aright{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.asection4{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #111111;
+    padding: 3rem 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    
+}

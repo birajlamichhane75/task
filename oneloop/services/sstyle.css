@@ -1,0 +1,27 @@
+.ssection1{
+    padding: 7vw 4vw;
+}
+.ssection1 .ss1top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.ss1top .ss1left{
+    width:60%;
+}
+.ssection2{
+    background-image: url("simages/cta-bg.png");
+    height: 20rem;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ssection2 .ss2logo img{
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
